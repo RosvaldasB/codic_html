@@ -178,7 +178,6 @@ main {
         .wrapper {
             div {
                 background-image: url("../img/bg/sectionTwo_bg_1.png");
-                background-clip: content-box;
 
                 * {
                     color: $white;
@@ -219,7 +218,7 @@ main {
                 }
             }
 
-            .middle{
+            .middle {
                 padding-left: $space_lg;
                 padding-right: $space_lg;
             }
@@ -237,50 +236,57 @@ main {
                     }
                 }
             }
-            
+
 
         }
+
         @media #{$media_md} {
             .left {
                 div {
                     justify-content: center;
+
                     &:first-child {
                         padding: $space_sm 0;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        h1{
+
+                        h1 {
                             padding-bottom: $space_sm;
                         }
-                        span{
+
+                        span {
                             padding-top: $space_lg;
-                            a{
-                               font-size: 2rem; 
+
+                            a {
+                                font-size: 2rem;
                             }
-                            
+
                         }
                     }
 
-                    &:last-child{
-                            margin-top: 0 !important;
-                            margin-bottom: $space_lg !important;
-                            display: flex;
-                            flex-direction: column;
-                            flex-wrap: wrap;
-                            img{
-                                padding-bottom: $space_sm;
-                            }
-                        
-                        
+                    &:last-child {
+                        margin-top: 0 !important;
+                        margin-bottom: $space_lg !important;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+
+                        img {
+                            padding-bottom: $space_sm;
+                        }
+
+
                     }
                 }
-            }    
+            }
+
             .middle {
                 display: none;
             }
 
             .right {
-                div{
+                div {
                     max-width: 80%;
                     display: flex;
                     flex-direction: column;
@@ -289,225 +295,227 @@ main {
                     padding-bottom: $space_sm;
                 }
             }
-            
+
         }
     }
+
     #experience {
-            .SectionThree_bg {
-                z-index: -1;
+        .SectionThree_bg {
+            z-index: -1;
+            position: absolute;
+            right: 48%;
+            margin-top: 30REM;
+        }
+
+        .left {
+            .experienceShowcase {
+                background-image: url("../img/bg/sectionThree_bg_2.svg");
                 position: absolute;
-                right: 48%;
-                margin-top: 30REM;
-            }
-
-            .left {
-                .experienceShowcase {
-                    background-image: url("../img/bg/sectionThree_bg_2.svg");
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    padding: 10px;
-
-                    div {
-                        padding: $space_xs;
-
-                        p {
-                            color: $white;
-
-                            line-height: 1.21;
-
-                            &:first-child {
-                                font-weight: bold;
-                                font-size: 1.777rem;
-
-                                span {
-                                    font-size: 5.555rem;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            .right {
-                padding-left: $space_md;
-
-                h1 {
-                    padding-bottom: $space_sm;
-                }
-
-                p {
-                    padding-bottom: $space_xs;
-                }
+                bottom: 0;
+                right: 0;
+                padding: 10px;
 
                 div {
-                    display: flex;
-                    padding-bottom: $space_xs;
-
-                    img {
-                        width: fit-content;
-                    }
-
-                    .boss {
-                        flex-direction: column;
-                        padding-left: $space_sm;
-
-                        strong {
-                            padding-bottom: $space_xs;
-                            color: $dark;
-                            font-size: 1.333rem;
-                        }
-
-                        span {
-                            color: $dark;
-                        }
-                    }
-                }
-            }
-
-            @media #{$media_md} {
-                .left {
-                    margin-top: 0 !important;
-                    padding-bottom: $space_lg;
-                }
-
-                .right {
-                    padding-left: 0;
-                    margin-top: $space_md;
-                }
-            }
-    }
-
-    #team {
-            .left {
-                background-color: $black;
-                color: $white;
-                margin-bottom: $space_lg;
-
-                h1 {
-                    padding: $space_xl $space_md;
-                    color: $white;
-                }
-
-                div {
-                    padding: $space_md;
+                    padding: $space_xs;
 
                     p {
                         color: $white;
-                    }
 
-                    div {
-                        padding-left: 0;
+                        line-height: 1.21;
 
-                        div {
-                            padding: 0;
-                        }
-                    }
+                        &:first-child {
+                            font-weight: bold;
+                            font-size: 1.777rem;
 
-                    .boss {
-                        flex-direction: column;
-                        padding-left: $space_sm;
-
-                        strong {
-                            padding-bottom: $space_xs;
-                            font-size: 1.333rem;
-                        }
-
-                        span {
-                            color: $body_text_secondary_color;
-                        }
-                    }
-                }
-
-            }
-
-            .right {
-                padding-left: $space_md;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-
-                .teamMember {
-                    min-height: min-content;
-
-                    img{
-                        height: max-content;
-                    }
-
-                    &:nth-of-type(2) {
-                        margin-top: $space_xs;
-                        margin-bottom: $space_xs;
-                    }
-
-                    div {
-                        padding-left: $space_sm;
-
-                        strong {
-                            font-size: 1.333rem;
-                            color: $black;
-                            padding-bottom: $space_sm;
-                        }
-
-                        .companyPosition {
-                            background: $title_card_background_color;
-                            padding: $space_xs / 3;
-                            width: fit-content;
-                            margin: $space_xs 0;
-
-                            p {
-                                color: $body_text_tertiary_color;
-                                font-weight: bold;
-                                text-align: center;
-                                max-width: min-content;
-                                white-space: nowrap;
+                            span {
+                                font-size: 5.555rem;
                             }
-                        }
-
-                        .socials {
-                            font-size: 1.222rem;
-                            display: flex;
-                            flex-wrap: nowrap;
-
-                            i {
-                                &:first-child {
-                                    padding-right: $space_xs;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            @media #{$media_md} {
-                .right {
-                    padding-left: 0 !important;
-
-                    .teamMember {
-                        padding-left: 0;
-                        flex-direction: column;
-                        padding-bottom: $space_xs;
-                        div{
-                            
-                                padding-top: $space_xs;
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center;
-                                text-align: center;
-                            
                         }
                     }
                 }
             }
         }
+
+        .right {
+            padding-left: $space_md;
+
+            h1 {
+                padding-bottom: $space_sm;
+            }
+
+            p {
+                padding-bottom: $space_xs;
+            }
+
+            div {
+                display: flex;
+                padding-bottom: $space_xs;
+
+                img {
+                    width: fit-content;
+                }
+
+                .boss {
+                    flex-direction: column;
+                    padding-left: $space_sm;
+
+                    strong {
+                        padding-bottom: $space_xs;
+                        color: $dark;
+                        font-size: 1.333rem;
+                    }
+
+                    span {
+                        color: $dark;
+                    }
+                }
+            }
+        }
+
+        @media #{$media_md} {
+            .left {
+                margin-top: 0 !important;
+                padding-bottom: $space_lg;
+            }
+
+            .right {
+                padding-left: 0;
+                margin-top: $space_md;
+            }
+        }
+    }
+
+    #team {
+        .left {
+            background-color: $black;
+            color: $white;
+
+            h1 {
+                padding: $space_xl $space_md;
+                color: $white;
+            }
+
+            div {
+                padding: $space_md;
+
+                p {
+                    color: $white;
+                    padding-top: $space_md;
+                }
+
+                div {
+                    padding-left: 0;
+
+                    div {
+                        padding: 0;
+                    }
+                }
+
+                .boss {
+                    flex-direction: column;
+                    padding-left: $space_sm;
+
+                    strong {
+                        padding-bottom: $space_xs;
+                        font-size: 1.333rem;
+                    }
+
+                    span {
+                        color: $body_text_secondary_color;
+                    }
+                }
+            }
+
+        }
+
+        .right {
+            padding-left: $space_md;
+            display: flex;
+            flex-wrap: wrap;
+
+
+            .teamMember {
+                max-height: fit-content;
+
+                img {
+                    height: max-content;
+                }
+
+                &:nth-of-type(2) {
+                    padding-top: $space_sm;
+                    padding-bottom: $space_sm;
+                }
+
+                div {
+                    padding-left: $space_sm;
+
+                    strong {
+                        font-size: 1.333rem;
+                        color: $black;
+                        padding-bottom: $space_sm;
+                    }
+
+                    .companyPosition {
+                        background: $title_card_background_color;
+                        padding: $space_xs / 3;
+                        width: fit-content;
+                        margin: $space_xs 0;
+
+                        p {
+                            color: $body_text_tertiary_color;
+                            font-weight: bold;
+                            text-align: center;
+                            max-width: min-content;
+                            white-space: nowrap;
+                        }
+                    }
+
+                    .socials {
+                        font-size: 1.222rem;
+                        display: flex;
+                        flex-wrap: nowrap;
+
+                        i {
+                            &:first-child {
+                                padding-right: $space_xs;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media #{$media_md} {
+            .right {
+                padding-left: 0 !important;
+
+                .teamMember {
+                    padding-left: 0;
+                    flex-direction: column;
+                    padding-bottom: $space_xs;
+
+                    div {
+
+                        padding-top: $space_xs;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+
+                    }
+                }
+            }
+        }
+    }
 
 }
 
 
 
-    .content-top-spacing {
-        padding-top: $main_padding_t;
-    }
+.content-top-spacing {
+    padding-top: $main_padding_t;
+}
 
-    .content-bottom-spacing {
-        padding-bottom: $main_padding_b;
-    }
+.content-bottom-spacing {
+    padding-bottom: $main_padding_b;
+}

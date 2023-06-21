@@ -6,7 +6,7 @@ $footer_item_space: $space_xs;
 
 .site-footer {
     background-color: $body_background_color;
-    
+
     .wrapper {
         position: relative;
         padding-top: $footer_padding_t;
@@ -14,7 +14,7 @@ $footer_item_space: $space_xs;
 
         .footer {
             .d-flex {
-                > div {
+                >div {
                     padding-left: $footer_item_space;
                     padding-right: $footer_item_space;
 
@@ -45,66 +45,73 @@ $footer_item_space: $space_xs;
                 }
             }
 
-            .adveits_logo{
+            .adveits_logo {
                 @media #{$media_md} {
                     display: flex;
                     justify-content: center;
                 }
             }
 
-            .socials{
+            .socials {
                 font-size: 1.222rem;
                 display: flex;
                 flex-wrap: nowrap;
-                i{
-                    &:first-child{
+
+                i {
+                    &:first-child {
                         padding-right: $space_xs;
                     }
                 }
-                a{
-                    &:first-child{
-                        i{
+
+                a {
+                    &:first-child {
+                        i {
                             content: '\f0e1';
                             font-family: 'Font Awesome 5 Brands';
                             transition: transform $transition_s ease-in-out;
-                            &:hover{
-                                &::before{
+
+                            &:hover {
+                                &::before {
                                     content: '\f0e1';
                                     font-family: 'Font Awesome 5 Brands';
                                     display: none;
                                 }
-                                &::after{
+
+                                &::after {
                                     position: relative;
                                     content: '\f08c';
                                     color: $LinkedIn_icon_color;
                                     transform: scale(1.5);
                                 }
                             }
-                        }  
-                        
+                        }
+
                     }
-                    &:last-child{
-                        i{
+
+                    &:last-child {
+                        i {
                             content: '\f39e';
                             font-family: 'Font Awesome 5 Brands';
                             transition: transform $transition_s ease-in-out;
-                            &:hover{
-                                &::before{
+
+                            &:hover {
+                                &::before {
                                     content: '\f39e';
                                     font-family: 'Font Awesome 5 Brands';
                                     display: none;
                                 }
-                                &::after{
+
+                                &::after {
                                     position: relative;
                                     content: '\f082';
                                     color: $Facebook_icon_color;
                                     transform: scale(1.5);
                                 }
                             }
-                        }  
+                        }
                     }
                 }
-                
+
                 @media #{$media_md} {
                     text-align: center;
                     justify-content: center;

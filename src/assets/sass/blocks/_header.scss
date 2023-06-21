@@ -17,67 +17,75 @@ $header_item_space: $space_xs;
 		}
 	}
 
-	.header-menu{
-		.menu-toggle{
-				i{
-					position: static;
-					transition: all $transition_s ease-in-out;
-					&:hover{
-						color: $white;
-						background-color: $dark;
-						padding: 1.5rem;
-						border-radius: 50%;
-					}
+	.header-menu {
+		.menu-toggle {
+			i {
+				position: static;
+				transition: all $transition_s ease-in-out;
+
+				&:hover {
+					color: $white;
+					background-color: $dark;
+					padding: 1.5rem;
+					border-radius: 50%;
 				}
+			}
 		}
-				
+
 	}
 
-	.language{
-		span{
-			button{
+	.language {
+		span {
+			button {
 				border: none;
 				background-color: $transparent;
-				i{
+
+				i {
 					color: $dark;
 					transition: all $transition_s ease;
-					&:hover{
-						&::after{
+
+					&:hover {
+						&::after {
 							content: "?";
 						}
 					}
 				}
 			}
-			
+
 		}
-		div{
-			button{
+
+		div {
+			button {
 				border: none;
 				background: none;
 				margin-top: $space_xs / 2;
 				color: $lang_button_color;
 			}
-			.bold-button{
+
+			.bold-button {
 				font-weight: bolder;
 				color: $dark;
 			}
 		}
 	}
+
 	@media #{$media_md} {
-		.menu-toggle{
-			i{
+		.menu-toggle {
+			i {
 				font-size: 2.5rem;
 			}
 		}
-		.language{
-			span{
-				button{
+
+		.language {
+			span {
+				button {
 					font-size: 1.5rem;
 				}
-				
+
 			}
-			div{
-				button{
+
+			div {
+				button {
 					font-size: 1.5rem;
 				}
 			}
@@ -89,7 +97,7 @@ $header_item_space: $space_xs;
 	.header-content {
 		.header-left {
 			.d-flex {
-				> * {
+				>* {
 					margin-right: $header_item_space;
 				}
 			}
@@ -97,7 +105,7 @@ $header_item_space: $space_xs;
 
 		.header-right {
 			.d-flex {
-				> * {
+				>* {
 					margin-right: $header_item_space;
 
 					&:last-child {

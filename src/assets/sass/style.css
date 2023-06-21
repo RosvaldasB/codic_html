@@ -16035,73 +16035,147 @@ body .socials i {
 /*=============================
 // Headings
 =============================*/
-h1:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), .h1:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), h2:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), .h2:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), h3:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), .h3:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), h4:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), .h4:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), h5:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), .h5:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), h6:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), .h6:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]), legend:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]) {
+h1:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+.h1:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+h2:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+.h2:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+h3:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+.h3:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+h4:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+.h4:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+h5:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+.h5:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+h6:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+.h6:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]),
+legend:not([class*=-title]):not([class*=__title]):not([class*=-heading]):not([class*=__heading]):not([class*=-header]):not([class*=-t-head]) {
   color: #060606;
 }
-h1:before, .h1:before, h2:before, .h2:before, h3:before, .h3:before, h4:before, .h4:before, h5:before, .h5:before, h6:before, .h6:before, legend:before {
+h1:before,
+.h1:before,
+h2:before,
+.h2:before,
+h3:before,
+.h3:before,
+h4:before,
+.h4:before,
+h5:before,
+.h5:before,
+h6:before,
+.h6:before,
+legend:before {
   content: "";
   display: block;
   height: 0;
   width: 0;
   margin-top: calc((0.75 - 1.31) * 0.5em);
 }
-h1:last-child:after, .h1:last-child:after, h2:last-child:after, .h2:last-child:after, h3:last-child:after, .h3:last-child:after, h4:last-child:after, .h4:last-child:after, h5:last-child:after, .h5:last-child:after, h6:last-child:after, .h6:last-child:after, legend:last-child:after {
+h1:last-child:after,
+.h1:last-child:after,
+h2:last-child:after,
+.h2:last-child:after,
+h3:last-child:after,
+.h3:last-child:after,
+h4:last-child:after,
+.h4:last-child:after,
+h5:last-child:after,
+.h5:last-child:after,
+h6:last-child:after,
+.h6:last-child:after,
+legend:last-child:after {
   content: "";
   display: block;
   height: 0;
   width: 0;
   margin-bottom: calc((0.75 - 1.31) * 0.5em);
 }
-h1.after:after, .h1.after:after, h2.after:after, .h2.after:after, h3.after:after, .h3.after:after, h4.after:after, .h4.after:after, h5.after:after, .h5.after:after, h6.after:after, .h6.after:after, legend.after:after {
+h1.after:after,
+.h1.after:after,
+h2.after:after,
+.h2.after:after,
+h3.after:after,
+.h3.after:after,
+h4.after:after,
+.h4.after:after,
+h5.after:after,
+.h5.after:after,
+h6.after:after,
+.h6.after:after,
+legend.after:after {
   content: "";
   display: block;
   height: 0;
   width: 0;
   margin-bottom: calc((0.75 - 1.31) * 0.5em);
 }
-h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a, h6 a, .h6 a, legend a {
+h1 a,
+.h1 a,
+h2 a,
+.h2 a,
+h3 a,
+.h3 a,
+h4 a,
+.h4 a,
+h5 a,
+.h5 a,
+h6 a,
+.h6 a,
+legend a {
   color: #060606;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   margin-bottom: 0.688rem;
 }
-h1:last-child, .h1:last-child {
+h1:last-child,
+.h1:last-child {
   margin-bottom: 0;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   margin-bottom: 0.871rem;
 }
-h2:last-child, .h2:last-child {
+h2:last-child,
+.h2:last-child {
   margin-bottom: 0;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   margin-bottom: 0.971rem;
 }
-h3:last-child, .h3:last-child {
+h3:last-child,
+.h3:last-child {
   margin-bottom: 0;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   margin-bottom: 1.06rem;
 }
-h4:last-child, .h4:last-child {
+h4:last-child,
+.h4:last-child {
   margin-bottom: 0;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   margin-bottom: 1.113rem;
 }
-h5:last-child, .h5:last-child {
+h5:last-child,
+.h5:last-child {
   margin-bottom: 0;
 }
 
-h6, .h6, legend {
+h6,
+.h6,
+legend {
   margin-bottom: 1.139rem;
 }
-h6:last-child, .h6:last-child, legend:last-child {
+h6:last-child,
+.h6:last-child,
+legend:last-child {
   margin-bottom: 0;
 }
 
@@ -16140,17 +16214,20 @@ p.no-after:after {
   display: none !important;
 }
 
-.small, small {
+.small,
+small {
   line-height: 1.79;
 }
-.small:before, small:before {
+.small:before,
+small:before {
   content: "";
   display: block;
   height: 0;
   width: 0;
   margin-top: calc((0.8 - 1.79) * 0.5em);
 }
-.small:last-child:after, small:last-child:after {
+.small:last-child:after,
+small:last-child:after {
   content: "";
   display: block;
   height: 0;
@@ -16158,7 +16235,8 @@ p.no-after:after {
   margin-bottom: calc((0.65 - 1.79) * 0.5em);
 }
 
-strong, b {
+strong,
+b {
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: 700;
 }
@@ -16183,27 +16261,34 @@ a:hover {
 /*=============================
 // Blockquote
 =============================*/
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   border-left: 2px solid #2b2b2b;
   color: #2b2b2b;
   padding-left: 1.474rem;
   line-height: 1.79;
   margin-bottom: 1.579rem;
 }
-blockquote:last-child, .blockquote:last-child {
+blockquote:last-child,
+.blockquote:last-child {
   margin-bottom: 0;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: 700;
 }
-blockquote p:after, blockquote p:before, .blockquote p:after, .blockquote p:before {
+blockquote p:after, blockquote p:before,
+.blockquote p:after,
+.blockquote p:before {
   display: none;
 }
-blockquote p:last-child, .blockquote p:last-child {
+blockquote p:last-child,
+.blockquote p:last-child {
   margin-bottom: 0;
 }
-blockquote p:last-child:after, .blockquote p:last-child:after {
+blockquote p:last-child:after,
+.blockquote p:last-child:after {
   display: none;
 }
 
@@ -16242,7 +16327,8 @@ ul li:before {
   width: 1rem;
   margin-left: -1.3rem;
 }
-ul ol, ul ul {
+ul ol,
+ul ul {
   margin-top: 1.009rem;
 }
 
@@ -16277,7 +16363,8 @@ ol li ul > li:before {
 ol li ol > li:before {
   content: "";
 }
-ol ol, ol ul {
+ol ol,
+ol ul {
   margin-top: 1.009rem;
 }
 
@@ -16305,24 +16392,35 @@ ol ol, ol ul {
   content: "";
 }
 
-address, dl, ol, ul, pre {
+address,
+dl,
+ol,
+ul,
+pre {
   margin-bottom: 1.579rem;
 }
-address:last-child, dl:last-child, ol:last-child, ul:last-child, pre:last-child {
+address:last-child,
+dl:last-child,
+ol:last-child,
+ul:last-child,
+pre:last-child {
   margin-bottom: 0;
 }
 
-address, dl {
+address,
+dl {
   line-height: 1.79;
 }
-address:before, dl:before {
+address:before,
+dl:before {
   content: "";
   display: block;
   height: 0;
   width: 0;
   margin-top: calc((0.8 - 1.79) * 0.5em);
 }
-address:last-child:after, dl:last-child:after {
+address:last-child:after,
+dl:last-child:after {
   content: "";
   display: block;
   height: 0;
@@ -19885,7 +19983,6 @@ main .company .SectionOne_bg {
 }
 main #offer .wrapper div, main #offer #outdated .vertical-center div, #outdated main #offer .vertical-center div {
   background-image: url("../img/bg/sectionTwo_bg_1.png");
-  background-clip: content-box;
 }
 main #offer .wrapper div *, main #offer #outdated .vertical-center div *, #outdated main #offer .vertical-center div * {
   color: #ffffff;
@@ -20032,7 +20129,6 @@ main #experience .right div .boss span {
 main #team .left {
   background-color: #000;
   color: #ffffff;
-  margin-bottom: 3.158rem;
 }
 main #team .left h1 {
   padding: 8.421rem 2.632rem;
@@ -20043,6 +20139,7 @@ main #team .left div {
 }
 main #team .left div p {
   color: #ffffff;
+  padding-top: 2.632rem;
 }
 main #team .left div div {
   padding-left: 0;
@@ -20065,19 +20162,18 @@ main #team .right {
   padding-left: 2.632rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 main #team .right .teamMember {
-  min-height: -moz-min-content;
-  min-height: min-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
 }
 main #team .right .teamMember img {
   height: -moz-max-content;
   height: max-content;
 }
 main #team .right .teamMember:nth-of-type(2) {
-  margin-top: 1.579rem;
-  margin-bottom: 1.579rem;
+  padding-top: 2.368rem;
+  padding-bottom: 2.368rem;
 }
 main #team .right .teamMember div {
   padding-left: 2.368rem;
@@ -20199,49 +20295,89 @@ main #team .right .teamMember div .socials i:first-child {
 #page-content .content address:last-child, #page-content .content dl:last-child, #page-content .content ol:last-child, #page-content .content ul:last-child, #page-content .content pre:last-child, #page-content .content hr:last-child, #page-content .content blockquote:last-child, #page-content .content .blockquote:last-child {
   margin-bottom: 0;
 }
-#page-content .content .style-default h1, .ui #ui-content #page-content .content .bd-callout h1, #page-content .content .ui #ui-content h1, .ui #page-content .content #ui-content h1, #page-content .content .widget-area h1, #page-content .content blockquote h1, #page-content .content .blockquote h1, #page-content .content .alert h1 {
+#page-content .content .style-default h1, .ui #ui-content #page-content .content .bd-callout h1, #page-content .content .ui #ui-content h1, .ui #page-content .content #ui-content h1, #page-content .content .widget-area h1, #page-content .content blockquote h1,
+#page-content .content .blockquote h1, #page-content .content .alert h1 {
   margin-bottom: 0.688rem;
 }
-#page-content .content .style-default h2, .ui #ui-content #page-content .content .bd-callout h2, #page-content .content .ui #ui-content h2, .ui #page-content .content #ui-content h2, #page-content .content .widget-area h2, #page-content .content blockquote h2, #page-content .content .blockquote h2, #page-content .content .alert h2 {
+#page-content .content .style-default h2, .ui #ui-content #page-content .content .bd-callout h2, #page-content .content .ui #ui-content h2, .ui #page-content .content #ui-content h2, #page-content .content .widget-area h2, #page-content .content blockquote h2,
+#page-content .content .blockquote h2, #page-content .content .alert h2 {
   margin-bottom: 0.871rem;
 }
-#page-content .content .style-default h3, .ui #ui-content #page-content .content .bd-callout h3, #page-content .content .ui #ui-content h3, .ui #page-content .content #ui-content h3, #page-content .content .widget-area h3, #page-content .content blockquote h3, #page-content .content .blockquote h3, #page-content .content .alert h3 {
+#page-content .content .style-default h3, .ui #ui-content #page-content .content .bd-callout h3, #page-content .content .ui #ui-content h3, .ui #page-content .content #ui-content h3, #page-content .content .widget-area h3, #page-content .content blockquote h3,
+#page-content .content .blockquote h3, #page-content .content .alert h3 {
   margin-bottom: 0.971rem;
 }
-#page-content .content .style-default h4, .ui #ui-content #page-content .content .bd-callout h4, #page-content .content .ui #ui-content h4, .ui #page-content .content #ui-content h4, #page-content .content .widget-area h4, #page-content .content blockquote h4, #page-content .content .blockquote h4, #page-content .content .alert h4 {
+#page-content .content .style-default h4, .ui #ui-content #page-content .content .bd-callout h4, #page-content .content .ui #ui-content h4, .ui #page-content .content #ui-content h4, #page-content .content .widget-area h4, #page-content .content blockquote h4,
+#page-content .content .blockquote h4, #page-content .content .alert h4 {
   margin-bottom: 1.06rem;
 }
-#page-content .content .style-default h5, .ui #ui-content #page-content .content .bd-callout h5, #page-content .content .ui #ui-content h5, .ui #page-content .content #ui-content h5, #page-content .content .widget-area h5, #page-content .content blockquote h5, #page-content .content .blockquote h5, #page-content .content .alert h5 {
+#page-content .content .style-default h5, .ui #ui-content #page-content .content .bd-callout h5, #page-content .content .ui #ui-content h5, .ui #page-content .content #ui-content h5, #page-content .content .widget-area h5, #page-content .content blockquote h5,
+#page-content .content .blockquote h5, #page-content .content .alert h5 {
   margin-bottom: 1.113rem;
 }
-#page-content .content .style-default h6, .ui #ui-content #page-content .content .bd-callout h6, #page-content .content .ui #ui-content h6, .ui #page-content .content #ui-content h6, #page-content .content .widget-area h6, #page-content .content blockquote h6, #page-content .content .blockquote h6, #page-content .content .alert h6 {
+#page-content .content .style-default h6, .ui #ui-content #page-content .content .bd-callout h6, #page-content .content .ui #ui-content h6, .ui #page-content .content #ui-content h6, #page-content .content .widget-area h6, #page-content .content blockquote h6,
+#page-content .content .blockquote h6, #page-content .content .alert h6 {
   margin-bottom: 1.139rem;
 }
-#page-content .content .style-default p, .ui #ui-content #page-content .content .bd-callout p, #page-content .content .ui #ui-content p, .ui #page-content .content #ui-content p, #page-content .content .widget-area p, #page-content .content blockquote p, #page-content .content .blockquote p, #page-content .content .alert p {
+#page-content .content .style-default p, .ui #ui-content #page-content .content .bd-callout p, #page-content .content .ui #ui-content p, .ui #page-content .content #ui-content p, #page-content .content .widget-area p, #page-content .content blockquote p,
+#page-content .content .blockquote p, #page-content .content .alert p {
   margin-bottom: 1.009rem;
 }
-#page-content .content .style-default h1:last-child, .ui #ui-content #page-content .content .bd-callout h1:last-child, #page-content .content .ui #ui-content h1:last-child, .ui #page-content .content #ui-content h1:last-child, #page-content .content .widget-area h1:last-child, #page-content .content blockquote h1:last-child, #page-content .content .blockquote h1:last-child, #page-content .content .alert h1:last-child, #page-content .content .style-default h2:last-child, .ui #ui-content #page-content .content .bd-callout h2:last-child, #page-content .content .ui #ui-content h2:last-child, .ui #page-content .content #ui-content h2:last-child, #page-content .content .widget-area h2:last-child, #page-content .content blockquote h2:last-child, #page-content .content .blockquote h2:last-child, #page-content .content .alert h2:last-child, #page-content .content .style-default h3:last-child, .ui #ui-content #page-content .content .bd-callout h3:last-child, #page-content .content .ui #ui-content h3:last-child, .ui #page-content .content #ui-content h3:last-child, #page-content .content .widget-area h3:last-child, #page-content .content blockquote h3:last-child, #page-content .content .blockquote h3:last-child, #page-content .content .alert h3:last-child, #page-content .content .style-default h4:last-child, .ui #ui-content #page-content .content .bd-callout h4:last-child, #page-content .content .ui #ui-content h4:last-child, .ui #page-content .content #ui-content h4:last-child, #page-content .content .widget-area h4:last-child, #page-content .content blockquote h4:last-child, #page-content .content .blockquote h4:last-child, #page-content .content .alert h4:last-child, #page-content .content .style-default h5:last-child, .ui #ui-content #page-content .content .bd-callout h5:last-child, #page-content .content .ui #ui-content h5:last-child, .ui #page-content .content #ui-content h5:last-child, #page-content .content .widget-area h5:last-child, #page-content .content blockquote h5:last-child, #page-content .content .blockquote h5:last-child, #page-content .content .alert h5:last-child, #page-content .content .style-default h6:last-child, .ui #ui-content #page-content .content .bd-callout h6:last-child, #page-content .content .ui #ui-content h6:last-child, .ui #page-content .content #ui-content h6:last-child, #page-content .content .widget-area h6:last-child, #page-content .content blockquote h6:last-child, #page-content .content .blockquote h6:last-child, #page-content .content .alert h6:last-child, #page-content .content .style-default p:last-child, .ui #ui-content #page-content .content .bd-callout p:last-child, #page-content .content .ui #ui-content p:last-child, .ui #page-content .content #ui-content p:last-child, #page-content .content .widget-area p:last-child, #page-content .content blockquote p:last-child, #page-content .content .blockquote p:last-child, #page-content .content .alert p:last-child {
+#page-content .content .style-default h1:last-child, .ui #ui-content #page-content .content .bd-callout h1:last-child, #page-content .content .ui #ui-content h1:last-child, .ui #page-content .content #ui-content h1:last-child, #page-content .content .widget-area h1:last-child, #page-content .content blockquote h1:last-child,
+#page-content .content .blockquote h1:last-child, #page-content .content .alert h1:last-child, #page-content .content .style-default h2:last-child, .ui #ui-content #page-content .content .bd-callout h2:last-child, #page-content .content .ui #ui-content h2:last-child, .ui #page-content .content #ui-content h2:last-child, #page-content .content .widget-area h2:last-child, #page-content .content blockquote h2:last-child,
+#page-content .content .blockquote h2:last-child, #page-content .content .alert h2:last-child, #page-content .content .style-default h3:last-child, .ui #ui-content #page-content .content .bd-callout h3:last-child, #page-content .content .ui #ui-content h3:last-child, .ui #page-content .content #ui-content h3:last-child, #page-content .content .widget-area h3:last-child, #page-content .content blockquote h3:last-child,
+#page-content .content .blockquote h3:last-child, #page-content .content .alert h3:last-child, #page-content .content .style-default h4:last-child, .ui #ui-content #page-content .content .bd-callout h4:last-child, #page-content .content .ui #ui-content h4:last-child, .ui #page-content .content #ui-content h4:last-child, #page-content .content .widget-area h4:last-child, #page-content .content blockquote h4:last-child,
+#page-content .content .blockquote h4:last-child, #page-content .content .alert h4:last-child, #page-content .content .style-default h5:last-child, .ui #ui-content #page-content .content .bd-callout h5:last-child, #page-content .content .ui #ui-content h5:last-child, .ui #page-content .content #ui-content h5:last-child, #page-content .content .widget-area h5:last-child, #page-content .content blockquote h5:last-child,
+#page-content .content .blockquote h5:last-child, #page-content .content .alert h5:last-child, #page-content .content .style-default h6:last-child, .ui #ui-content #page-content .content .bd-callout h6:last-child, #page-content .content .ui #ui-content h6:last-child, .ui #page-content .content #ui-content h6:last-child, #page-content .content .widget-area h6:last-child, #page-content .content blockquote h6:last-child,
+#page-content .content .blockquote h6:last-child, #page-content .content .alert h6:last-child, #page-content .content .style-default p:last-child, .ui #ui-content #page-content .content .bd-callout p:last-child, #page-content .content .ui #ui-content p:last-child, .ui #page-content .content #ui-content p:last-child, #page-content .content .widget-area p:last-child, #page-content .content blockquote p:last-child,
+#page-content .content .blockquote p:last-child, #page-content .content .alert p:last-child {
   margin-bottom: 0;
 }
-#page-content .content .style-default table, .ui #ui-content #page-content .content .bd-callout table, #page-content .content .ui #ui-content table, .ui #page-content .content #ui-content table, #page-content .content .widget-area table, #page-content .content blockquote table, #page-content .content .blockquote table, #page-content .content .alert table {
+#page-content .content .style-default table, .ui #ui-content #page-content .content .bd-callout table, #page-content .content .ui #ui-content table, .ui #page-content .content #ui-content table, #page-content .content .widget-area table, #page-content .content blockquote table,
+#page-content .content .blockquote table, #page-content .content .alert table {
   margin-bottom: 1.579rem;
 }
-#page-content .content .style-default table:last-child, .ui #ui-content #page-content .content .bd-callout table:last-child, #page-content .content .ui #ui-content table:last-child, .ui #page-content .content #ui-content table:last-child, #page-content .content .widget-area table:last-child, #page-content .content blockquote table:last-child, #page-content .content .blockquote table:last-child, #page-content .content .alert table:last-child {
+#page-content .content .style-default table:last-child, .ui #ui-content #page-content .content .bd-callout table:last-child, #page-content .content .ui #ui-content table:last-child, .ui #page-content .content #ui-content table:last-child, #page-content .content .widget-area table:last-child, #page-content .content blockquote table:last-child,
+#page-content .content .blockquote table:last-child, #page-content .content .alert table:last-child {
   margin-bottom: 0;
 }
-#page-content .content .style-default ul li:not([class*=-item]), .ui #ui-content #page-content .content .bd-callout ul li:not([class*=-item]), #page-content .content .ui #ui-content ul li:not([class*=-item]), .ui #page-content .content #ui-content ul li:not([class*=-item]), #page-content .content .widget-area ul li:not([class*=-item]), #page-content .content blockquote ul li:not([class*=-item]), #page-content .content .blockquote ul li:not([class*=-item]), #page-content .content .alert ul li:not([class*=-item]), #page-content .content .style-default ol li:not([class*=-item]), .ui #ui-content #page-content .content .bd-callout ol li:not([class*=-item]), #page-content .content .ui #ui-content ol li:not([class*=-item]), .ui #page-content .content #ui-content ol li:not([class*=-item]), #page-content .content .widget-area ol li:not([class*=-item]), #page-content .content blockquote ol li:not([class*=-item]), #page-content .content .blockquote ol li:not([class*=-item]), #page-content .content .alert ol li:not([class*=-item]) {
+#page-content .content .style-default ul li:not([class*=-item]), .ui #ui-content #page-content .content .bd-callout ul li:not([class*=-item]), #page-content .content .ui #ui-content ul li:not([class*=-item]), .ui #page-content .content #ui-content ul li:not([class*=-item]), #page-content .content .widget-area ul li:not([class*=-item]), #page-content .content blockquote ul li:not([class*=-item]),
+#page-content .content .blockquote ul li:not([class*=-item]), #page-content .content .alert ul li:not([class*=-item]), #page-content .content .style-default ol li:not([class*=-item]), .ui #ui-content #page-content .content .bd-callout ol li:not([class*=-item]), #page-content .content .ui #ui-content ol li:not([class*=-item]), .ui #page-content .content #ui-content ol li:not([class*=-item]), #page-content .content .widget-area ol li:not([class*=-item]), #page-content .content blockquote ol li:not([class*=-item]),
+#page-content .content .blockquote ol li:not([class*=-item]), #page-content .content .alert ol li:not([class*=-item]) {
   margin-bottom: 1.009rem;
 }
-#page-content .content .style-default ul li:not([class*=-item]):last-child, .ui #ui-content #page-content .content .bd-callout ul li:not([class*=-item]):last-child, #page-content .content .ui #ui-content ul li:not([class*=-item]):last-child, .ui #page-content .content #ui-content ul li:not([class*=-item]):last-child, #page-content .content .widget-area ul li:not([class*=-item]):last-child, #page-content .content blockquote ul li:not([class*=-item]):last-child, #page-content .content .blockquote ul li:not([class*=-item]):last-child, #page-content .content .alert ul li:not([class*=-item]):last-child, #page-content .content .style-default ol li:not([class*=-item]):last-child, .ui #ui-content #page-content .content .bd-callout ol li:not([class*=-item]):last-child, #page-content .content .ui #ui-content ol li:not([class*=-item]):last-child, .ui #page-content .content #ui-content ol li:not([class*=-item]):last-child, #page-content .content .widget-area ol li:not([class*=-item]):last-child, #page-content .content blockquote ol li:not([class*=-item]):last-child, #page-content .content .blockquote ol li:not([class*=-item]):last-child, #page-content .content .alert ol li:not([class*=-item]):last-child {
+#page-content .content .style-default ul li:not([class*=-item]):last-child, .ui #ui-content #page-content .content .bd-callout ul li:not([class*=-item]):last-child, #page-content .content .ui #ui-content ul li:not([class*=-item]):last-child, .ui #page-content .content #ui-content ul li:not([class*=-item]):last-child, #page-content .content .widget-area ul li:not([class*=-item]):last-child, #page-content .content blockquote ul li:not([class*=-item]):last-child,
+#page-content .content .blockquote ul li:not([class*=-item]):last-child, #page-content .content .alert ul li:not([class*=-item]):last-child, #page-content .content .style-default ol li:not([class*=-item]):last-child, .ui #ui-content #page-content .content .bd-callout ol li:not([class*=-item]):last-child, #page-content .content .ui #ui-content ol li:not([class*=-item]):last-child, .ui #page-content .content #ui-content ol li:not([class*=-item]):last-child, #page-content .content .widget-area ol li:not([class*=-item]):last-child, #page-content .content blockquote ol li:not([class*=-item]):last-child,
+#page-content .content .blockquote ol li:not([class*=-item]):last-child, #page-content .content .alert ol li:not([class*=-item]):last-child {
   margin-bottom: 0;
 }
-#page-content .content .style-default ul ol, .ui #ui-content #page-content .content .bd-callout ul ol, #page-content .content .ui #ui-content ul ol, .ui #page-content .content #ui-content ul ol, #page-content .content .widget-area ul ol, #page-content .content blockquote ul ol, #page-content .content .blockquote ul ol, #page-content .content .alert ul ol, #page-content .content .style-default ul ul, .ui #ui-content #page-content .content .bd-callout ul ul, #page-content .content .ui #ui-content ul ul, .ui #page-content .content #ui-content ul ul, #page-content .content .widget-area ul ul, #page-content .content blockquote ul ul, #page-content .content .blockquote ul ul, #page-content .content .alert ul ul, #page-content .content .style-default ol ol, .ui #ui-content #page-content .content .bd-callout ol ol, #page-content .content .ui #ui-content ol ol, .ui #page-content .content #ui-content ol ol, #page-content .content .widget-area ol ol, #page-content .content blockquote ol ol, #page-content .content .blockquote ol ol, #page-content .content .alert ol ol, #page-content .content .style-default ol ul, .ui #ui-content #page-content .content .bd-callout ol ul, #page-content .content .ui #ui-content ol ul, .ui #page-content .content #ui-content ol ul, #page-content .content .widget-area ol ul, #page-content .content blockquote ol ul, #page-content .content .blockquote ol ul, #page-content .content .alert ol ul {
+#page-content .content .style-default ul ol, .ui #ui-content #page-content .content .bd-callout ul ol, #page-content .content .ui #ui-content ul ol, .ui #page-content .content #ui-content ul ol, #page-content .content .widget-area ul ol, #page-content .content blockquote ul ol,
+#page-content .content .blockquote ul ol, #page-content .content .alert ul ol, #page-content .content .style-default ul ul, .ui #ui-content #page-content .content .bd-callout ul ul, #page-content .content .ui #ui-content ul ul, .ui #page-content .content #ui-content ul ul, #page-content .content .widget-area ul ul, #page-content .content blockquote ul ul,
+#page-content .content .blockquote ul ul, #page-content .content .alert ul ul, #page-content .content .style-default ol ol, .ui #ui-content #page-content .content .bd-callout ol ol, #page-content .content .ui #ui-content ol ol, .ui #page-content .content #ui-content ol ol, #page-content .content .widget-area ol ol, #page-content .content blockquote ol ol,
+#page-content .content .blockquote ol ol, #page-content .content .alert ol ol, #page-content .content .style-default ol ul, .ui #ui-content #page-content .content .bd-callout ol ul, #page-content .content .ui #ui-content ol ul, .ui #page-content .content #ui-content ol ul, #page-content .content .widget-area ol ul, #page-content .content blockquote ol ul,
+#page-content .content .blockquote ol ul, #page-content .content .alert ol ul {
   margin-top: 1.009rem;
 }
-#page-content .content .style-default address, .ui #ui-content #page-content .content .bd-callout address, #page-content .content .ui #ui-content address, .ui #page-content .content #ui-content address, #page-content .content .widget-area address, #page-content .content blockquote address, #page-content .content .blockquote address, #page-content .content .alert address, #page-content .content .style-default dl, .ui #ui-content #page-content .content .bd-callout dl, #page-content .content .ui #ui-content dl, .ui #page-content .content #ui-content dl, #page-content .content .widget-area dl, #page-content .content blockquote dl, #page-content .content .blockquote dl, #page-content .content .alert dl, #page-content .content .style-default ol, .ui #ui-content #page-content .content .bd-callout ol, #page-content .content .ui #ui-content ol, .ui #page-content .content #ui-content ol, #page-content .content .widget-area ol, #page-content .content blockquote ol, #page-content .content .blockquote ol, #page-content .content .alert ol, #page-content .content .style-default ul, .ui #ui-content #page-content .content .bd-callout ul, #page-content .content .ui #ui-content ul, .ui #page-content .content #ui-content ul, #page-content .content .widget-area ul, #page-content .content blockquote ul, #page-content .content .blockquote ul, #page-content .content .alert ul, #page-content .content .style-default pre, .ui #ui-content #page-content .content .bd-callout pre, #page-content .content .ui #ui-content pre, .ui #page-content .content #ui-content pre, #page-content .content .widget-area pre, #page-content .content blockquote pre, #page-content .content .blockquote pre, #page-content .content .alert pre, #page-content .content .style-default hr, .ui #ui-content #page-content .content .bd-callout hr, #page-content .content .ui #ui-content hr, .ui #page-content .content #ui-content hr, #page-content .content .widget-area hr, #page-content .content blockquote hr, #page-content .content .blockquote hr, #page-content .content .alert hr, #page-content .content .style-default blockquote, .ui #ui-content #page-content .content .bd-callout blockquote, #page-content .content .ui #ui-content blockquote, .ui #page-content .content #ui-content blockquote, #page-content .content .widget-area blockquote, #page-content .content blockquote blockquote, #page-content .content .blockquote blockquote, #page-content .content .alert blockquote, #page-content .content .style-default .blockquote, .ui #ui-content #page-content .content .bd-callout .blockquote, #page-content .content .ui #ui-content .blockquote, .ui #page-content .content #ui-content .blockquote, #page-content .content .widget-area .blockquote, #page-content .content blockquote .blockquote, #page-content .content .blockquote .blockquote, #page-content .content .alert .blockquote {
+#page-content .content .style-default address, .ui #ui-content #page-content .content .bd-callout address, #page-content .content .ui #ui-content address, .ui #page-content .content #ui-content address, #page-content .content .widget-area address, #page-content .content blockquote address,
+#page-content .content .blockquote address, #page-content .content .alert address, #page-content .content .style-default dl, .ui #ui-content #page-content .content .bd-callout dl, #page-content .content .ui #ui-content dl, .ui #page-content .content #ui-content dl, #page-content .content .widget-area dl, #page-content .content blockquote dl,
+#page-content .content .blockquote dl, #page-content .content .alert dl, #page-content .content .style-default ol, .ui #ui-content #page-content .content .bd-callout ol, #page-content .content .ui #ui-content ol, .ui #page-content .content #ui-content ol, #page-content .content .widget-area ol, #page-content .content blockquote ol,
+#page-content .content .blockquote ol, #page-content .content .alert ol, #page-content .content .style-default ul, .ui #ui-content #page-content .content .bd-callout ul, #page-content .content .ui #ui-content ul, .ui #page-content .content #ui-content ul, #page-content .content .widget-area ul, #page-content .content blockquote ul,
+#page-content .content .blockquote ul, #page-content .content .alert ul, #page-content .content .style-default pre, .ui #ui-content #page-content .content .bd-callout pre, #page-content .content .ui #ui-content pre, .ui #page-content .content #ui-content pre, #page-content .content .widget-area pre, #page-content .content blockquote pre,
+#page-content .content .blockquote pre, #page-content .content .alert pre, #page-content .content .style-default hr, .ui #ui-content #page-content .content .bd-callout hr, #page-content .content .ui #ui-content hr, .ui #page-content .content #ui-content hr, #page-content .content .widget-area hr, #page-content .content blockquote hr,
+#page-content .content .blockquote hr, #page-content .content .alert hr, #page-content .content .style-default blockquote, .ui #ui-content #page-content .content .bd-callout blockquote, #page-content .content .ui #ui-content blockquote, .ui #page-content .content #ui-content blockquote, #page-content .content .widget-area blockquote, #page-content .content blockquote blockquote,
+#page-content .content .blockquote blockquote, #page-content .content .alert blockquote, #page-content .content .style-default .blockquote, .ui #ui-content #page-content .content .bd-callout .blockquote, #page-content .content .ui #ui-content .blockquote, .ui #page-content .content #ui-content .blockquote, #page-content .content .widget-area .blockquote, #page-content .content blockquote .blockquote,
+#page-content .content .blockquote .blockquote, #page-content .content .alert .blockquote {
   margin-bottom: 1.579rem;
 }
-#page-content .content .style-default address:last-child, .ui #ui-content #page-content .content .bd-callout address:last-child, #page-content .content .ui #ui-content address:last-child, .ui #page-content .content #ui-content address:last-child, #page-content .content .widget-area address:last-child, #page-content .content blockquote address:last-child, #page-content .content .blockquote address:last-child, #page-content .content .alert address:last-child, #page-content .content .style-default dl:last-child, .ui #ui-content #page-content .content .bd-callout dl:last-child, #page-content .content .ui #ui-content dl:last-child, .ui #page-content .content #ui-content dl:last-child, #page-content .content .widget-area dl:last-child, #page-content .content blockquote dl:last-child, #page-content .content .blockquote dl:last-child, #page-content .content .alert dl:last-child, #page-content .content .style-default ol:last-child, .ui #ui-content #page-content .content .bd-callout ol:last-child, #page-content .content .ui #ui-content ol:last-child, .ui #page-content .content #ui-content ol:last-child, #page-content .content .widget-area ol:last-child, #page-content .content blockquote ol:last-child, #page-content .content .blockquote ol:last-child, #page-content .content .alert ol:last-child, #page-content .content .style-default ul:last-child, .ui #ui-content #page-content .content .bd-callout ul:last-child, #page-content .content .ui #ui-content ul:last-child, .ui #page-content .content #ui-content ul:last-child, #page-content .content .widget-area ul:last-child, #page-content .content blockquote ul:last-child, #page-content .content .blockquote ul:last-child, #page-content .content .alert ul:last-child, #page-content .content .style-default pre:last-child, .ui #ui-content #page-content .content .bd-callout pre:last-child, #page-content .content .ui #ui-content pre:last-child, .ui #page-content .content #ui-content pre:last-child, #page-content .content .widget-area pre:last-child, #page-content .content blockquote pre:last-child, #page-content .content .blockquote pre:last-child, #page-content .content .alert pre:last-child, #page-content .content .style-default hr:last-child, .ui #ui-content #page-content .content .bd-callout hr:last-child, #page-content .content .ui #ui-content hr:last-child, .ui #page-content .content #ui-content hr:last-child, #page-content .content .widget-area hr:last-child, #page-content .content blockquote hr:last-child, #page-content .content .blockquote hr:last-child, #page-content .content .alert hr:last-child, #page-content .content .style-default blockquote:last-child, .ui #ui-content #page-content .content .bd-callout blockquote:last-child, #page-content .content .ui #ui-content blockquote:last-child, .ui #page-content .content #ui-content blockquote:last-child, #page-content .content .widget-area blockquote:last-child, #page-content .content blockquote blockquote:last-child, #page-content .content .blockquote blockquote:last-child, #page-content .content .alert blockquote:last-child, #page-content .content .style-default .blockquote:last-child, .ui #ui-content #page-content .content .bd-callout .blockquote:last-child, #page-content .content .ui #ui-content .blockquote:last-child, .ui #page-content .content #ui-content .blockquote:last-child, #page-content .content .widget-area .blockquote:last-child, #page-content .content blockquote .blockquote:last-child, #page-content .content .blockquote .blockquote:last-child, #page-content .content .alert .blockquote:last-child {
+#page-content .content .style-default address:last-child, .ui #ui-content #page-content .content .bd-callout address:last-child, #page-content .content .ui #ui-content address:last-child, .ui #page-content .content #ui-content address:last-child, #page-content .content .widget-area address:last-child, #page-content .content blockquote address:last-child,
+#page-content .content .blockquote address:last-child, #page-content .content .alert address:last-child, #page-content .content .style-default dl:last-child, .ui #ui-content #page-content .content .bd-callout dl:last-child, #page-content .content .ui #ui-content dl:last-child, .ui #page-content .content #ui-content dl:last-child, #page-content .content .widget-area dl:last-child, #page-content .content blockquote dl:last-child,
+#page-content .content .blockquote dl:last-child, #page-content .content .alert dl:last-child, #page-content .content .style-default ol:last-child, .ui #ui-content #page-content .content .bd-callout ol:last-child, #page-content .content .ui #ui-content ol:last-child, .ui #page-content .content #ui-content ol:last-child, #page-content .content .widget-area ol:last-child, #page-content .content blockquote ol:last-child,
+#page-content .content .blockquote ol:last-child, #page-content .content .alert ol:last-child, #page-content .content .style-default ul:last-child, .ui #ui-content #page-content .content .bd-callout ul:last-child, #page-content .content .ui #ui-content ul:last-child, .ui #page-content .content #ui-content ul:last-child, #page-content .content .widget-area ul:last-child, #page-content .content blockquote ul:last-child,
+#page-content .content .blockquote ul:last-child, #page-content .content .alert ul:last-child, #page-content .content .style-default pre:last-child, .ui #ui-content #page-content .content .bd-callout pre:last-child, #page-content .content .ui #ui-content pre:last-child, .ui #page-content .content #ui-content pre:last-child, #page-content .content .widget-area pre:last-child, #page-content .content blockquote pre:last-child,
+#page-content .content .blockquote pre:last-child, #page-content .content .alert pre:last-child, #page-content .content .style-default hr:last-child, .ui #ui-content #page-content .content .bd-callout hr:last-child, #page-content .content .ui #ui-content hr:last-child, .ui #page-content .content #ui-content hr:last-child, #page-content .content .widget-area hr:last-child, #page-content .content blockquote hr:last-child,
+#page-content .content .blockquote hr:last-child, #page-content .content .alert hr:last-child, #page-content .content .style-default blockquote:last-child, .ui #ui-content #page-content .content .bd-callout blockquote:last-child, #page-content .content .ui #ui-content blockquote:last-child, .ui #page-content .content #ui-content blockquote:last-child, #page-content .content .widget-area blockquote:last-child, #page-content .content blockquote blockquote:last-child,
+#page-content .content .blockquote blockquote:last-child, #page-content .content .alert blockquote:last-child, #page-content .content .style-default .blockquote:last-child, .ui #ui-content #page-content .content .bd-callout .blockquote:last-child, #page-content .content .ui #ui-content .blockquote:last-child, .ui #page-content .content #ui-content .blockquote:last-child, #page-content .content .widget-area .blockquote:last-child, #page-content .content blockquote .blockquote:last-child,
+#page-content .content .blockquote .blockquote:last-child, #page-content .content .alert .blockquote:last-child {
   margin-bottom: 0;
 }
 

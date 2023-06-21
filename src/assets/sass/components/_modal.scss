@@ -29,9 +29,9 @@
     z-index: 99;
     width: 100%;
 
-    .header-right{
-        button{
-            i{
+    .header-right {
+        button {
+            i {
                 font-size: 2rem;
             }
         }
@@ -52,13 +52,16 @@
         display: block;
         height: 100vh;
     }
-    ul{
-        li{
+
+    ul {
+        li {
             padding: $space_xs;
-            a{
+
+            a {
                 color: $dark;
                 transition: all $transition_s ease-in;
-                &:hover{
+
+                &:hover {
                     color: $dark;
                     min-width: 100vw;
                     padding: $space_xs / 2;
@@ -75,7 +78,7 @@
 =============================*/
 .modal#menu-modal {
     .modal-body {
-        > * {
+        >* {
             padding-top: $space_lg + 3.158rem;
             padding-bottom: $space_lg;
         }
