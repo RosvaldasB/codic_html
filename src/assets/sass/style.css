@@ -19885,7 +19885,7 @@ main .company .SectionOne_bg {
 }
 main #offer .wrapper div, main #offer #outdated .vertical-center div, #outdated main #offer .vertical-center div {
   background-image: url("../img/bg/sectionTwo_bg_1.png");
-  background-size: contain;
+  background-clip: content-box;
 }
 main #offer .wrapper div *, main #offer #outdated .vertical-center div *, #outdated main #offer .vertical-center div * {
   color: #ffffff;
@@ -20032,7 +20032,7 @@ main #experience .right div .boss span {
 main #team .left {
   background-color: #000;
   color: #ffffff;
-  margin-bottom: 2.632rem;
+  margin-bottom: 3.158rem;
 }
 main #team .left h1 {
   padding: 8.421rem 2.632rem;
@@ -20065,11 +20065,19 @@ main #team .right {
   padding-left: 2.632rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 main #team .right .teamMember {
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+}
+main #team .right .teamMember img {
+  height: -moz-max-content;
+  height: max-content;
+}
+main #team .right .teamMember:nth-of-type(2) {
+  margin-top: 1.579rem;
+  margin-bottom: 1.579rem;
 }
 main #team .right .teamMember div {
   padding-left: 2.368rem;

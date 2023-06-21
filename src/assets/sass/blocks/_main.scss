@@ -178,7 +178,7 @@ main {
         .wrapper {
             div {
                 background-image: url("../img/bg/sectionTwo_bg_1.png");
-                background-size: contain;
+                background-clip: content-box;
 
                 * {
                     color: $white;
@@ -382,7 +382,7 @@ main {
             .left {
                 background-color: $black;
                 color: $white;
-                margin-bottom: $space_md;
+                margin-bottom: $space_lg;
 
                 h1 {
                     padding: $space_xl $space_md;
@@ -425,19 +425,19 @@ main {
                 padding-left: $space_md;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
 
                 .teamMember {
-                    min-height: fit-content;
+                    min-height: min-content;
 
-                    // img{
-                    //     height: max-content;
-                    // }
+                    img{
+                        height: max-content;
+                    }
 
-                    // &:nth-of-type(2) {
-                    //     margin-top: $space_xs;
-                    //     margin-bottom: $space_xs;
-                    // }
+                    &:nth-of-type(2) {
+                        margin-top: $space_xs;
+                        margin-bottom: $space_xs;
+                    }
 
                     div {
                         padding-left: $space_sm;
