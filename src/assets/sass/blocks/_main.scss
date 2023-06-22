@@ -175,6 +175,8 @@ main {
     }
 
     #offer {
+        padding-left: $space_xl / 1.5;
+        padding-right: $space_xl / 1.5;
         .wrapper {
             div {
                 background-image: url("../img/bg/sectionTwo_bg_1.png");
@@ -219,8 +221,8 @@ main {
             }
 
             .middle {
-                padding-left: $space_lg;
-                padding-right: $space_lg;
+                padding-left: $space_md;
+                padding-right: $space_md;
             }
 
             .right {

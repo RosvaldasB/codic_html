@@ -62,7 +62,7 @@
                 transition: all $transition_s ease-in;
 
                 &:hover {
-                    color: $dark;
+                    color: $body_text_tertiary_color;
                     min-width: 100vw;
                     padding: $space_xs / 2;
                     border-bottom: solid 0.111rem $dark;

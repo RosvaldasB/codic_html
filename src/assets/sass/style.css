@@ -15601,7 +15601,7 @@ html {
 
 .main_bg {
   background-size: 11.111rem 11.111rem;
-  background-image: repeating-linear-gradient(0deg, hsla(0, 0%, 85%, 0.4), transparent 0.111rem, transparent);
+  background-image: repeating-linear-gradient(0deg, rgba(217, 217, 217, 0.4), transparent 0.111rem, transparent);
   z-index: -8;
 }
 
@@ -17097,7 +17097,7 @@ form p.after:after {
   transition: all 0.3s ease-in;
 }
 .modal-body-centered ul li a:hover {
-  color: #060606;
+  color: #14348e;
   min-width: 100vw;
   padding: 0.7895rem;
   border-bottom: solid 0.111rem #060606;
@@ -18732,7 +18732,7 @@ form p.after:after {
 // Text tertiary
 =============================*/
 .text-tertiary {
-  color: rgb(20, 52, 142);
+  color: #14348e;
 }
 .text-tertiary h1:not(.btn), .text-tertiary h2:not(.btn), .text-tertiary h3:not(.btn), .text-tertiary h4:not(.btn), .text-tertiary h5:not(.btn), .text-tertiary h6:not(.btn), .text-tertiary p:not(.btn), .text-tertiary blockquote:not(.btn), .text-tertiary pre:not(.btn), .text-tertiary a:not(.btn), .text-tertiary abbr:not(.btn), .text-tertiary address:not(.btn), .text-tertiary cit:not(.btn), .text-tertiary code:not(.btn),
 .text-tertiary del:not(.btn), .text-tertiary dfn:not(.btn), .text-tertiary em:not(.btn), .text-tertiary ins:not(.btn), .text-tertiary q:not(.btn), .text-tertiary samp:not(.btn), .text-tertiary small:not(.btn), .text-tertiary strong:not(.btn), .text-tertiary sub:not(.btn), .text-tertiary sup:not(.btn), .text-tertiary b:not(.btn), .text-tertiary i:not(.btn), .text-tertiary hr:not(.btn), .text-tertiary dl:not(.btn), .text-tertiary dt:not(.btn), .text-tertiary dd:not(.btn),
@@ -18743,10 +18743,10 @@ form p.after:after {
   opacity: 0.8;
 }
 .text-tertiary .btn.btn-link, .text-tertiary #outdated .vertical-center .btn-link#buttonUpdateBrowser, #outdated .vertical-center .text-tertiary .btn-link#buttonUpdateBrowser {
-  color: rgb(20, 52, 142);
+  color: #14348e;
 }
 .text-tertiary .blockquote, .text-tertiary blockquote {
-  border-color: rgb(20, 52, 142) !important;
+  border-color: #14348e !important;
 }
 
 /*=============================
@@ -19697,9 +19697,9 @@ iframe {
 =============================*/
 .site-header {
   position: fixed;
-  right: 1.2rem;
+  right: 1%;
   top: 1.5rem;
-  min-height: 35%;
+  min-height: 55%;
   z-index: 100;
 }
 .site-header .logo img {
@@ -19981,6 +19981,10 @@ main .company .SectionOne_bg {
   right: 48.5%;
   margin-top: -12REM;
 }
+main #offer {
+  padding-left: 5.614rem;
+  padding-right: 5.614rem;
+}
 main #offer .wrapper div, main #offer #outdated .vertical-center div, #outdated main #offer .vertical-center div {
   background-image: url("../img/bg/sectionTwo_bg_1.png");
 }
@@ -20008,8 +20012,8 @@ main #offer .wrapper div .left .contact a:before, main #offer #outdated .vertica
   background-color: #ffffff;
 }
 main #offer .wrapper .middle, main #offer #outdated .vertical-center .middle, #outdated main #offer .vertical-center .middle {
-  padding-left: 3.158rem;
-  padding-right: 3.158rem;
+  padding-left: 2.632rem;
+  padding-right: 2.632rem;
 }
 main #offer .wrapper .right div h1, main #offer #outdated .vertical-center .right div h1, #outdated main #offer .vertical-center .right div h1 {
   color: #ffffff;
@@ -20184,14 +20188,14 @@ main #team .right .teamMember div strong {
   padding-bottom: 2.368rem;
 }
 main #team .right .teamMember div .companyPosition {
-  background: rgba(20, 52, 142, 0.15);
+  background: rgba(20, 52, 142, 0.1490196078);
   padding: 0.5263333333rem;
   width: -moz-fit-content;
   width: fit-content;
   margin: 1.579rem 0;
 }
 main #team .right .teamMember div .companyPosition p {
-  color: rgb(20, 52, 142);
+  color: #14348e;
   font-weight: bold;
   text-align: center;
   max-width: -moz-min-content;
@@ -20550,7 +20554,7 @@ main #team .right .teamMember div .socials i:first-child {
 .ui #ui-content .bd-placeholder-img text {
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: 700;
-  fill: rgb(20, 52, 142);
+  fill: #14348e;
 }
 .ui #ui-content .bd-placeholder-img-lg {
   font-size: 2.5rem;

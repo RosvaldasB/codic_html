@@ -59,18 +59,21 @@ var path = {
 //=================================================
 // Tasks
 //=================================================
-gulp.task( 'webserver', function( done ) {
-    webserver.init( {
-        server: {
-            baseDir: './dist'
-        },
-        notify: false,
-        open: true,
-        ui: false
-    } );
-
+gulp.task('webserver', function(done) {
+    webserver.init({
+      server: {
+        baseDir: './dist',
+        routes: {
+          '/node_modules': 'node_modules'
+        }
+      },
+      notify: false,
+      open: true,
+      ui: false
+    });
+  
     done();
-} );
+  });
 
 gulp.task( 'html:build', function() {
     return gulp.src( path.src.html ).pipe( plumber() ).pipe( rigger() ).pipe( gulp.dest( path.build.html ) ).pipe( webserver.reload( { stream: true } ) );
